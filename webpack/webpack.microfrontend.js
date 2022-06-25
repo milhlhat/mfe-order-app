@@ -18,7 +18,6 @@ module.exports = ({ serve }) => {
           ShellApp: "ShellApp@http://localhost:3060/remoteEntry.js",
         },
         exposes: {
-          "./Login": "./src/Login.tsx",
           "./OrderDetail": "./src/OrderDetail.tsx",
         },
         shared: {
